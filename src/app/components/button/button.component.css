@@ -17,4 +17,13 @@ button {
   &.primary {
     background: var(--gradient);
   }
+
+  &.secondary {
+    background: var(--white);
+    color: var(--black);
+  }
+
+  &.size {
+    font-size: 16px;
+  }
 }
