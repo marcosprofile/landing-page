@@ -1,0 +1,20 @@
+:root {
+  /* FONTE */
+  --font-family: "Plus Jakarta Sans", sans-serif;
+
+  /* COLORS */
+  --gradient: linear-gradient(90deg, #862FE7 0%, #AD7CE7 100%), #DDD;
+  --black: #000000;
+  --white: #FFFFFF;
+  --white100: #F2F3FA;
+  --primary: #B57FF0;
+  --primary70: #B57FF070;
+  --purple: #862FE7;
+  --purple-light: #F5E9FC;
+
+  --title: 64px;
+  --subtitle: 50px;
+  --heading: 24px;
+  --subheading: 18px;
+  --paragraph: 14px;
+}

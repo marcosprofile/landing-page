@@ -1,0 +1,24 @@
+section {
+  padding: 120px;
+}
+
+.black {
+  background-color: var(--black);
+  color: var(--white);
+
+  &.image-1 {
+    background-image: url("../../../assets/img/bg-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &.image-2 {
+    background-image: url("../../../assets/img/bg-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.purple {
+  background-color: var(--purple-light);
+}
