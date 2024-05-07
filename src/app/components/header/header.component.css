@@ -43,7 +43,14 @@ header {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1340px) {
+  nav {
+    padding: 0 16px !important;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1134px) {
   nav {
     padding: 0 16px !important;
     justify-content: space-between;

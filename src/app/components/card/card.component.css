@@ -44,7 +44,7 @@
   }
 }
 
-@media (max-width: 728px) {
+@media (max-width: 1374px) {
   .card {
     & img {
       max-width: 100%;
