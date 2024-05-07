@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.card-1 {
+  grid-area: card-1;
+}
+
+.card-2 {
+  grid-area: card-2;
+}
+
+.card-3 {
+  grid-area: card-3;
+}
+
+.card-4 {
+  grid-area: card-4;
+}

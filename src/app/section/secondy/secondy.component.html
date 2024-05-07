@@ -1,3 +1,69 @@
 <app-container>
-  <p>secondy works!</p>
+  <div class="container">
+    <div class="flex">
+      <img src="assets/img/bullet-img.png" alt="Bullet">
+      <div class="comment">
+        <img src="assets/img/marker.png" alt="Marker">
+        <h2>
+          Our journey with Atomicwork to transition our
+          ticketing systems to their AI-based Microsoft
+          Teams Interface has been remarkable. The product
+          has transformed how we manage our IT and
+          business workflows, offering a seamless enterprise
+          integration to meet our needs efficiently.
+        </h2>
+        <div>
+          <img src="assets/img/people-img.png" alt="User">
+          <div class="user">
+            <h2>Chad Ghosn</h2>
+            <p>
+              Global CTO and CIO, <br>
+              AMMEX Corporation
+            </p>
+          </div>
+        </div>
+      </div>
+      <img src="assets/img/bullet-img.png" alt="Bullet">
+    </div>
+
+    <app-texto-destaque
+      class="black"
+      tag="conversational ai assistant"
+      titulo="Instant support for employees, within Slack and Microsoft Teams"
+      subtitulo="Say hello to Atom, our AI assistant, that helps you deliver a modern employee experience by leveraging knowledge from internal sources to offer instant answers for support queries."
+    />
+
+    <app-grid-cards grid="grid-1">
+      <app-card
+        class="card bg-3 card-1"
+        titulo="Help the right information find your employees"
+        descricao="Atom learns from knowledge sources like Confluence, SharePoint and Notion, chats, emails and wikis to take any question, any time."
+        url="../../../assets/img/layers/img-1.png"
+      />
+      <app-card
+        class="card bg-3 card-2"
+        titulo="One-click support"
+        descricao="Employees can create service requests, get help and updates straight from Teams and Slack."
+        url="../../../assets/img/layers/img-2.png"
+      />
+      <app-card
+        class="card bg-3 card-3"
+        titulo="Self-serve troubleshooting"
+        descricao="Atom helps your end users solve frequently encountered problems on their own, without waiting on your IT team. Learn more."
+        url="../../../assets/img/layers/img-3.png"
+      />
+      <app-card
+        class="card bg-3 card-4"
+        titulo="Personalized answers"
+        descricao="Atom learns from past conversations to deliver answers contextual to an employee based on dept, location etc."
+        url="../../../assets/img/layers/img-4.png"
+      />
+      <app-card
+        class="card bg-3 card-5"
+        titulo="Enterprise grade security"
+        descricao="Atom is built with security, privacy and compliance in mind and is compliant with global standards and ethical practices."
+        url="../../../assets/img/layers/img-5.png"
+      />
+    </app-grid-cards>
+  </div>
 </app-container>

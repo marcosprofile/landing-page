@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 
 // Components
 import { HeaderComponent } from '../../components/header/header.component';
+
+// Sections
 import { FirstComponent } from '../../section/first/first.component';
 import { SecondyComponent } from '../../section/secondy/secondy.component';
 import { ThirdComponent } from '../../section/third/third.component';

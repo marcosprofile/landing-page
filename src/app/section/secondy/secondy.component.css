@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+  & .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & .comment {
+      display: flex;
+      align-items: start;
+      gap: 24px;
+      padding-bottom: 100px;
+      border-bottom: 1px solid var(--white100);
+
+      & h2 {
+        max-width: 595px;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: italic;
+        margin-right: 100px;
+        line-height: 156%;
+      }
+
+      & .user {
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+
+        & h2, p {
+          min-width: max-content;
+          line-height: 156%;
+        }
+
+        & h2 {
+          font-style: normal;
+          font-weight: 700;
+        }
+
+        & p {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.card-1 {
+  grid-area: card-1;
+}
+
+.card-2 {
+  grid-area: card-2;
+}
+
+.card-3 {
+  grid-area: card-3;
+}
+
+.card-4 {
+  grid-area: card-4;
+}
+
+.card-5 {
+  grid-area: card-5;
+}

@@ -1,0 +1,33 @@
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  & span {
+    display: block;
+    text-transform: uppercase;
+    color: var(--purple);
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 24px;
+  }
+
+  & h2 {
+    margin-bottom: 16px;
+    width: 870px;
+  }
+
+  & p {
+    opacity: .7;
+    width: 840px;
+  }
+}
+
+.light {
+  color: var(--white);
+}
+
+.dark {
+  color: var(--black);
+}
