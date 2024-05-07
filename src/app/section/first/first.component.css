@@ -1,15 +1,14 @@
+h1 {
+  margin-bottom: 24px;
+}
+
 h1, p {
   text-align: center;
-
 }
 
 p {
   line-height: 156%;
   opacity: .7;
-}
-
-.spacing {
-  margin-top: 24px;
 }
 
 div {
@@ -35,5 +34,11 @@ div {
       padding: 12px 48px;
       border-radius: 80px;
     }
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column;
   }
 }

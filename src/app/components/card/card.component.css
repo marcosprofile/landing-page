@@ -43,3 +43,11 @@
     background-color: var(--white100);
   }
 }
+
+@media (max-width: 728px) {
+  .card {
+    & img {
+      max-width: 100%;
+    }
+  }
+}

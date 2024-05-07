@@ -41,3 +41,9 @@ footer {
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .container {
+    display: none !important;
+  }
+}

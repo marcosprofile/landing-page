@@ -42,3 +42,14 @@ header {
     }
   }
 }
+
+@media (max-width: 1024px) {
+  nav {
+    padding: 0 16px !important;
+    justify-content: space-between;
+
+    & ul {
+      display: none !important;
+    }
+  }
+}

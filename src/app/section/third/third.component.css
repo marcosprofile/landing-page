@@ -19,3 +19,10 @@
 .card-4 {
   grid-area: card-4;
 }
+
+@media (max-width: 1440px) {
+  .card-1, .card-2, .card-3, .card-4 {
+    flex-grow: 1;
+    flex-basis: 200;
+  }
+}

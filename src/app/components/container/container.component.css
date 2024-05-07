@@ -27,3 +27,15 @@ section {
 .purple {
   background-color: var(--purple-light);
 }
+
+@media (max-width: 1440px) {
+  section {
+    padding: 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  section {
+    padding: 40px 16px;
+  }
+}

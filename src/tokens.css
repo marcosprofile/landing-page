@@ -19,5 +19,13 @@
   --subtitle: 50px;
   --heading: 24px;
   --subheading: 18px;
-  --paragraph: 14px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --title: 32px;
+    --subtitle: 24px;
+    --heading: 18px;
+    --subheading: 16px;
+  }
 }
