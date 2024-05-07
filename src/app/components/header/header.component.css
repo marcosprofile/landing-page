@@ -53,3 +53,12 @@ header {
     }
   }
 }
+
+@media (max-width: 728px) {
+  nav {
+    justify-content: center;
+    & div {
+      display: none !important;
+    }
+  }
+}

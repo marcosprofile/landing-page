@@ -42,3 +42,11 @@ div {
     flex-direction: column;
   }
 }
+
+@media (max-width: 728px) {
+  .container {
+    & div img {
+      width: 100% !important;
+    }
+  }
+}
