@@ -18,6 +18,10 @@ section {
     background-size: 100% 100%;
     background-position: bottom;
   }
+
+  &.pb-40 {
+    padding-bottom: 40px;
+  }
 }
 
 .purple {

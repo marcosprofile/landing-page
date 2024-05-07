@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 80px 60px;
+  background-image: url("../../../assets/img/bg-card.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+
+  & .text {
+    width: 100%;
+
+    & h2 {
+      margin-bottom: 16px;
+    }
+
+    & p {
+      margin-bottom: 40px;
+      font-size: 18px;
+      opacity: .7;
+    }
+  }
+
+  & img {
+    border-radius: 48px;
+    border: 10px solid var(--white015);
+  }
+}

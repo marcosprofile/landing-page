@@ -24,3 +24,7 @@ h3 {
 h4 {
   font-size: var(--subheading);
 }
+
+p {
+  font-weight: 300;
+}

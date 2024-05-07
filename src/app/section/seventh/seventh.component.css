@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  & .container-links {
+
+    & .links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      min-width: 208px;
+      margin-bottom: 40px;
+
+      & div {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}
+
+footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--white015);
+
+  & span {
+    opacity: .5;
+    font-size: 14px;
+  }
+
+  & .social {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    & .redes {
+      display: flex;
+      gap: 8px;
+    }
+  }
+}
